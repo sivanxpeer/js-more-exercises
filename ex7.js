@@ -29,8 +29,6 @@ function countABC1(sentence) {
     return letterCounter;
 }
 
-
-//use string methods
 var startTime = performance.now();
 console.log(countABC1("hello my name is sivan"));
 var endTime = performance.now();
