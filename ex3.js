@@ -2,7 +2,8 @@ const { performance } = require('perf_hooks');
 
 //how many digits of num are even
 
-//naive solution:
+
+// naive solution:
 function countEven(num) {
     let counter = 0;
     while (num) {
@@ -13,6 +14,7 @@ function countEven(num) {
     }
     return counter;
 }
+
 
 //make number a string and loop over it
 function countEven1(num) {
