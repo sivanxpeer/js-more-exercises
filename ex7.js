@@ -2,7 +2,7 @@ const { performance } = require('perf_hooks');
 
 //function gets a sentence and returns how many times each letter appears
 
-//make an array 
+//check for spaces with regex 
 function countABC(sentence) {
     sentence = sentence.replace(/\s/g, "");
     let letterCounter = {};
@@ -15,7 +15,7 @@ function countABC(sentence) {
     return letterCounter;
 }
 
-// check with if for " "
+// check for spaces with if condition
 function countABC1(sentence) {
     let letterCounter = {};
     for (letter of sentence) {
